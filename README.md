@@ -32,7 +32,11 @@ The task is episodic, and in order to solve the environment, the agent must get 
 
 ### Instructions
 
-Follow the instructions in `Navigation.ipynb` to get started with training your own agent!  
+Follow the instructions in `Navigation.ipynb` to get started with training your own agent!
+
+### Implementation description
+
+To find the complete detail of the project implementation refer to Report.md  
 
 ### Future work
 The achieved result from the agent provided in the *Navigation* notebook has acceptable performance due to the fact that was able to solved the environment in less than 500 episodes. Either way, there is always room for improvement, for example fine tunning the hyperparammeters such as the learning rate or the number of neurons of each layer. As a possible future work, the idea of implementing a notebook running over a GPU that automatically varies the hyperparammeters in order to compare different configurations so as to obtain the highest performance.
